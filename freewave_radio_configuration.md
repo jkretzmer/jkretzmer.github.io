@@ -1,5 +1,5 @@
-#FreeWave Radio Basic Configuration
-##Overview
+# FreeWave Radio Basic Configuration
+## Overview
 
 Swift Navigation distributes FreeWave 900 MHz or 2.4 GHz radios for use during evaluation of our GNSS receivers. Those radios need to be properly configured before using them in a receiver integration. This article describes configuration steps for RTK base and RTK rover radios.
 
@@ -7,7 +7,7 @@ Radios can be configured using a simple serial terminal program or FreeWave Tool
 
 900 MHz and 2.4 GHz radio programming is identical. In examples below 900 MHz radios are used.
 
-##Terminal Program
+## Terminal Program
 
 At Swift we recommend **CoolTerm** as a free terminal program. It can be downloaded from here and is available for Windows and OSX. For Linux, we use **GtkTerm** which can be installed on Ubuntu via apt.
 
@@ -17,7 +17,7 @@ sudo apt-get install gtkterm
 
 Other terminal programs can also be used.
 
-##Radio Hardware Setup
+## Radio Hardware Setup
 
 For configuration, radios should be connected to your computer via the RS-232 port using a straight RS-232 cable. If there is no RS-232 port on your computer, use a USB to RS-232 adapter. Freewave radios require a 12 V DC power supply. Use the wall power adapter included with the radios, or a 12 V battery, to power radio during configuration.
 
@@ -25,7 +25,7 @@ For configuration, radios should be connected to your computer via the RS-232 po
 
 Fig 1. 900 MHz radio in programming mode
 
-###Entering Radio Programming Mode
+### Entering Radio Programming Mode
 Follow this steps to set radio in the programming mode.
 
 - Attach antenna to the radio board. Radio should be never powered without antenna attached.
@@ -44,7 +44,7 @@ GtkTerm_Freewave_main_menu.png
 
 Fig 3. 900 MHz radio programming screen on GtkTerm
 
-###Programming Radio for RTK Base Station
+### Programming Radio for RTK Base Station
 Follow this steps to program radio as a transmitter of RTK base station corrections. This radio will work as a Point-to-MultiPoint master. It will be able to transmit corrections to multiple rovers simultaneously.
 
 - Enter radio programming mode as described in the Entering Radio Programming Mode section.
@@ -67,7 +67,7 @@ Follow this steps to program radio as a transmitter of RTK base station correcti
 - Press Esc to Exit Setup
 - Power off the radio. Settings are saved in the radio's non-volatile memory. The radio is ready for RTK operation.
 
-###Programming Radio for RTK Rover
+### Programming Radio for RTK Rover
 Follow this steps to program radio as a receiver of RTK corrections. This radio will work as a Point-to-MultiPoint slave. It will not be able to transmit any data. Only receive it. Use the same radio settings for all rover radios in the system with multiple rovers.
 
 - Enter radio programming mode as described in the above Entering Radio Programming Mode section.
@@ -92,7 +92,7 @@ Follow this steps to program radio as a receiver of RTK corrections. This radio 
 - Press Esc to Exit Setup
 - Power off the radio. Settings are saved in the radio's non-volatile memory. The radio is ready for RTK operation.
 
-###LED Indicators
+### LED Indicators
 If the radio has been configured correctly, the LEDs should illuminate as shown in the table below.
 
 CD
@@ -117,7 +117,7 @@ off
 
 
 
-###Additional Information
+### Additional Information
 For additional information about radio operation and programming read User Manual and Reference Guide available from FreeWave site (FreeWave site will require to register for downloading the document):
 
 - MM2 (900 MHz)
