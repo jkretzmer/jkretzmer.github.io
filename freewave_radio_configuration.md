@@ -1,7 +1,7 @@
 #FreeWave Radio Basic Configuration
-===
-##Overview
 ---
+##Overview
+
 Swift Navigation distributes FreeWave 900 MHz or 2.4 GHz radios for use during evaluation of our GNSS receivers. Those radios need to be properly configured before using them in a receiver integration. This article describes configuration steps for RTK base and RTK rover radios.
 
 Radios can be configured using a simple serial terminal program or FreeWave Tool Suite. This article uses terminal program. For details about Tool Suite go to FreeWave site here.
@@ -9,6 +9,7 @@ Radios can be configured using a simple serial terminal program or FreeWave Tool
 900 MHz and 2.4 GHz radio programming is identical. In examples below 900 MHz radios are used.
 
 ##Terminal Program
+
 At Swift we recommend **CoolTerm** as a free terminal program. It can be downloaded from here and is available for Windows and OSX. For Linux, we use **GtkTerm** which can be installed on Ubuntu via apt.
 
 ```
@@ -18,7 +19,7 @@ sudo apt-get install gtkterm
 Other terminal programs can also be used.
 
 ##Radio Hardware Setup
----
+
 For configuration, radios should be connected to your computer via the RS-232 port using a straight RS-232 cable. If there is no RS-232 port on your computer, use a USB to RS-232 adapter. Freewave radios require a 12 V DC power supply. Use the wall power adapter included with the radios, or a 12 V battery, to power radio during configuration.
 
 
