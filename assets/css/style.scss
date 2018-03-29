@@ -10,37 +10,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   color: #333E47;
-  font-size: 18px; }
+  font-size: 10px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 10px; }
 
 h1 {
-  font-size: 48px;
+  font-size: 22px;
   font-weight: 400; }
 
 h2 {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 400; }
 
 h3 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
  }
 
 h4 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 800; }
 
 h5 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 800; }
 
 h6 {
-  font-size: 16px;
-  font-weight: 400;
-  color: #FF8300; }
+  font-size: 8px;
+  font-weight: 400;}
 
 p a,
 span a {
@@ -74,6 +73,6 @@ hr {
     background-color: #333E47;
     color: #FFF;
     text-align: center;
-    font-size: 13px;
+    font-size: 9px;
     margin-top: 20px;
 }
