@@ -69,10 +69,11 @@ hr {
 
 .support-footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 100px;
     width: 100%;
     background-color: #333E47;
     color: #FFF;
     text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
 }
