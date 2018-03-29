@@ -1,5 +1,4 @@
 #FreeWave Radio Basic Configuration
----
 ##Overview
 
 Swift Navigation distributes FreeWave 900 MHz or 2.4 GHz radios for use during evaluation of our GNSS receivers. Those radios need to be properly configured before using them in a receiver integration. This article describes configuration steps for RTK base and RTK rover radios.
@@ -123,4 +122,3 @@ For additional information about radio operation and programming read User Manua
 
 - MM2 (900 MHz)
 - GXM (2.4 GHz)
-
