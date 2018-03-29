@@ -20,10 +20,8 @@ Other terminal programs can also be used.
 ## Radio Hardware Setup
 
 For configuration, radios should be connected to your computer via the RS-232 port using a straight RS-232 cable. If there is no RS-232 port on your computer, use a USB to RS-232 adapter. Freewave radios require a 12 V DC power supply. Use the wall power adapter included with the radios, or a 12 V battery, to power radio during configuration.
-
-
-
-Fig 1. 900 MHz radio in programming mode
+![744141.jpg]({{site.baseurl}}/744141.jpg)
+###### Fig 1. 900 MHz radio in programming mode
 
 ### Entering Radio Programming Mode
 Follow this steps to set radio in the programming mode.
@@ -37,8 +35,9 @@ Follow this steps to set radio in the programming mode.
 - Press radio Programming Button located next to the Power Input on the radio board (see Fig 1). All three LEDs on the board should show solid green and you will be presented with the following menu on the terminal screen:
 
 
+![744113.png]({{site.baseurl}}/744113.png)
+###### Fig 2. 900 MHz radio programming screen on CoolTerm**
 
-Fig 2. 900 MHz radio programming screen on CoolTerm
 
 GtkTerm_Freewave_main_menu.png
 
