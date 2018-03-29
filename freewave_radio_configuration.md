@@ -20,8 +20,10 @@ Other terminal programs can also be used.
 ## Radio Hardware Setup
 
 For configuration, radios should be connected to your computer via the RS-232 port using a straight RS-232 cable. If there is no RS-232 port on your computer, use a USB to RS-232 adapter. Freewave radios require a 12 V DC power supply. Use the wall power adapter included with the radios, or a 12 V battery, to power radio during configuration.
+
 ![744141.jpg]({{site.baseurl}}/744141.jpg)
 ###### Fig 1. 900 MHz radio in programming mode
+
 
 ### Entering Radio Programming Mode
 Follow this steps to set radio in the programming mode.
